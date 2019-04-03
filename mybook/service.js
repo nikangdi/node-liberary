@@ -64,5 +64,5 @@ exports.editBook = (req,res)=>{
         if(request.affectedRows == 1){
             res.redirect('/');
         }
-    })
+    }) 
 }
